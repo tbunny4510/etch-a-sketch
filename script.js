@@ -10,3 +10,11 @@ for(let i = 0; i < 16; i++) {
     }
     container.appendChild(div);
 }
+
+const divHover = document.querySelectorAll('.rows');
+
+divHover.forEach((box) => {
+    box.addEventListener('mouseover', () => {
+        box.classList.add('rowsHover');
+    });
+});
