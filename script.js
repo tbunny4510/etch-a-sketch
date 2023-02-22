@@ -1,4 +1,5 @@
 const container = document.querySelector('#container');
+const clear = document.querySelector('.clear');
 
 for(let i = 0; i < 16; i++) {
     const div = document.createElement('div');
@@ -17,4 +18,10 @@ divHover.forEach((box) => {
     box.addEventListener('mouseover', () => {
         box.classList.add('rowsHover');
     });
+});
+
+clear.addEventListener('click', () => {
+    divHover.forEach((box) => {
+        box.classList.remove('rowsHover');
+    })
 });
