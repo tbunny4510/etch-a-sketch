@@ -16,6 +16,19 @@ function createBoxes(num) {
     hover();
 };
 
+function removeBoxes() {
+    const removeRows = document.querySelectorAll('.rows');
+    const removeCols = document.querySelectorAll('.containers');
+
+    removeRows.forEach((box) => {
+        box.remove();
+    });
+
+    removeCols.forEach((col) => {
+        col.remove();
+    });
+}
+
 function hover() {
     const divHover = document.querySelectorAll('.rows');
 
@@ -31,5 +44,6 @@ function hover() {
 
 amtButton.addEventListener('click', () => {
     let num = prompt("How many boxes?");
+    removeBoxes();
     createBoxes(num);
 });
