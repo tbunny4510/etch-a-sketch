@@ -4,18 +4,21 @@ body {
 }
 
 #container {
-    background-color: #000;
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 700px;
     margin: 0 auto;
 }
 
 .containers {
+    flex: 1 1 auto;
     display: flex;
+    height: 25px;
 }
 
 .rows {
     flex: 1;
-    height: 50px;
     background-color: #f00;
     border: 1px solid black;
 }
