@@ -19,3 +19,7 @@ body {
     background-color: #f00;
     border: 1px solid black;
 }
+
+.rowsHover {
+    background-color: #0f0;
+}
