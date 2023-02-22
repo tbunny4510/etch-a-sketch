@@ -31,6 +31,5 @@ function hover() {
 
 amtButton.addEventListener('click', () => {
     let num = prompt("How many boxes?");
-    removeBoxes();
     createBoxes(num);
 });
