@@ -27,16 +27,25 @@ body {
     background-color: #0f0;
 }
 
-.clear {
+.clear, .amt {
     font-size: 35px;
     padding: 10px;
     background-color: #00f;
     color: #fff;
     box-shadow: 0 0 5px 5px #00f;
-    margin: 10px auto 0 45%;
     border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.clear:hover {
+.clear {
+    margin-left: 100px;
+}
+
+.clear:hover, .amt:hover {
     background-color: #004;
+}
+
+.amt {
+    margin-left: 150px;
 }
