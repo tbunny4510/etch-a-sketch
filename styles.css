@@ -23,3 +23,17 @@ body {
 .rowsHover {
     background-color: #0f0;
 }
+
+.clear {
+    font-size: 35px;
+    padding: 10px;
+    background-color: #00f;
+    color: #fff;
+    box-shadow: 0 0 5px 5px #00f;
+    margin: 10px auto 0 45%;
+    border-radius: 30px;
+}
+
+.clear:hover {
+    background-color: #004;
+}
