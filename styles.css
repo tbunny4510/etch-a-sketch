@@ -1,0 +1,21 @@
+body {
+    background-color: #004;
+    margin: 0;
+}
+
+#container {
+    background-color: #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.containers {
+    display: flex;
+}
+
+.rows {
+    flex: 1;
+    height: 50px;
+    background-color: #f00;
+    border: 1px solid black;
+}
